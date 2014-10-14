@@ -14,7 +14,7 @@ var testObj = {
 }
 
 describe('Test Functions',function(){
-	describe('#testFun()',function(){
+	
 
 		it('should return an object',function(){
 			expect(testObj.returnObj()).to.be.an('object');
@@ -28,5 +28,5 @@ describe('Test Functions',function(){
 			expect(testObj).to.have.deep.property('myobj.name','chai mocha');
 		})
 
-	});
+	
 });

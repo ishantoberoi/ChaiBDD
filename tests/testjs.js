@@ -1,3 +1,10 @@
+// var chai = require('chai'),
+// 		expect = chai.expect,
+// 		should = chai.should(),
+// 		assert = chai.assert;
+
+
+
 var assert = chai.assert,
 		expect = chai.expect,
 		should = chai.should();
@@ -26,3 +33,6 @@ describe('Foobar',function(){
 	})
 
 });
+
+
+
